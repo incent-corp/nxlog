@@ -4,9 +4,6 @@ version          '0.8.2'
 description      'Installs and configures NXLog_ce on Linux or Windows'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
-issues_url       'http://github.com/widgit-cookbooks/nxlog/issues'
-source_url       'http://github.com/widgit-cookbooks/nxlog/'
-
 provides         'nxlog::default'
 provides         'nxlog::papertrail'
 provides         'nxlog::syslog'
